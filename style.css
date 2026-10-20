@@ -1,0 +1,64 @@
+css
+/* Mengatur font dan warna latar belakang seluruh halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menghias bagian Header */
+header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Mengatur tata letak pembungkus konten */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Menghias kotak konten (Card) agar terlihat modern */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #4A90E2;
+    margin-top: 0;
+}
+
+/* Menghias list/daftar */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Menghias bagian Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #aaa;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
